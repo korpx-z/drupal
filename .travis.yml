@@ -5,7 +5,7 @@ env:
   global:
 #    - TEST_DIR="$PWD/"
 #    - TEST_SCRIPT="test.sh"
-    - BUILD_DIR="$PWD/fpm-alpine3.12/"
+    - BUILD_DIR="$PWD/9.0/fpm-alpine3.12/"
     - REPO="quay.io/ibmz/drupal-s390x"
     - TAG="$REPO:9.0"
 before_script: 
